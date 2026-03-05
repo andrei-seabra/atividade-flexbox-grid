@@ -1,0 +1,123 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: radial-gradient(#149384, #2E8FCE);
+}
+
+.container {
+    width: 90dvw;
+    height: 75dvh;
+    justify-self: center;
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+    "box1 box2 box3 box4"
+    "box5 box6 box6 box7"
+    "box5 box6 box6 box7"
+    "box5 box8 box9 box7";
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: box1;
+    gap: 1rem;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: box2;
+}
+
+.box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: box3;
+}
+
+.box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: box4;
+}
+
+.box5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: box5;
+    gap: 1rem;
+}
+
+.box6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: box6;
+    gap: 1rem;
+}
+
+.box7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: box7;
+    gap: 1rem;
+}
+
+.box8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: box8;
+    gap: 1rem;
+}
+
+.box9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: box9;
+    gap: 1rem;
+}
+
+.title {
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+
+.content-title {
+    width: 80%;
+    font-weight: bold;
+    font-size: large;
+}
+
+.context {
+    width: 80%;
+}
+
+/* Colors */
+.c1 { background-color: #31322C; }
+.c2 { background-color: #39A0ED; }
+.c3 { background-color: #4C6085; }
+.c4 { background-color: #15C4A3; }
