@@ -5,3 +5,123 @@
     margin: 0;
 }
 
+.menu {
+    display: flex;
+    margin: 1.5rem;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.menu-buttons {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1rem;
+}
+
+.button {
+    padding: 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    color: white;
+}
+
+.button:hover {
+    background-color: #2479EC;
+}
+
+.title {
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    margin: 1.5rem;
+    gap: 2rem;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    border-radius: 1rem;
+    color: #626272;
+    gap: 2rem;
+}
+
+.box1 h1 {
+    font-size: x-large;
+    margin: 1.5rem 0 0 1.5rem;
+}
+
+.box1 p {
+    margin: 1.5rem 0 0 1.5rem;
+}
+
+.button-learn {
+    width: 11dvw;
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+    border: 0;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    border-radius: 1rem;
+    font-weight: bold;
+    color: #626272;
+}
+
+.box2 ul {
+    list-style: none;
+}
+
+.box2 ul li {
+    margin: 0 0 1.5rem 1.5rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    align-items: center;
+    margin: 1.5rem;
+}
+
+.footer p {
+    padding: 2.25rem;
+    font-size: large;
+    color: white;
+}
+
+.sidebar-title {
+    font-size: x-large;
+    margin: 1.5rem 0 0 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Colors */
+.c1 { background-color: #377DEA; }
+.c2 { background-color: #F8BA2A; }
+.c3 { background-color: #2479EC; }
+.c4 { background-color: #F5F7FA; }
+.c5 { background-color: #626272; }
